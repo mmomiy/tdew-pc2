@@ -41,6 +41,22 @@ describe RomanNumeral do
        @romano.convertir("X").should == 10
     end
 
+    it "XI a 11 "  do           
+       @romano.convertir("XI").should == 11
+    end
+
+    it "XV a 15 "  do           
+       @romano.convertir("XV").should == 15
+    end
+
+    it "XVI a 16 "  do           
+       @romano.convertir("XVI").should == 16
+    end
+
+    it "XX a 20 "  do           
+       @romano.convertir("XX").should == 20
+    end
+
  end  
 
 end 

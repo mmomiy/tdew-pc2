@@ -3,6 +3,7 @@ class RomanNumeral
 
 		indice = 0
 		contador = 0
+		v = numero.count("V")
 
 		while (numero.length > indice)
 
@@ -14,8 +15,7 @@ class RomanNumeral
 				end
 				if (numero[indice] == "X")
 					contador = contador + 10
-				end
-				
+				end				
 
 			indice = indice +  1
 
