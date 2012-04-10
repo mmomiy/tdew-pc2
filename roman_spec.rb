@@ -29,6 +29,10 @@ describe RomanNumeral do
        @romano.convertir("VI").should == 6
     end
 
+    it "VII a 7 "  do           
+       @romano.convertir("VII").should == 7
+    end
+
  end  
 
 end 
