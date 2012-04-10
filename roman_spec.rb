@@ -23,7 +23,11 @@ describe RomanNumeral do
 
     it "V a 5 "  do           
        @romano.convertir("V").should == 5
-    end  
+    end
+
+    it "VI a 6 "  do           
+       @romano.convertir("VI").should == 6
+    end
 
  end  
 
