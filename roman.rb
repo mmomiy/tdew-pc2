@@ -4,7 +4,12 @@ class RomanNumeral
 		contador = 0
 
 		while (numero.length > contador)
-			contador = contador + 1
+			if(numero[contador] == "I")
+				contador = contador + 1
+			end
+			if (numero[contador] == "V")
+				contador = contador + 5
+			end
 		end		
 
 		return contador

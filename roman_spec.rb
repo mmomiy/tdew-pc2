@@ -19,7 +19,11 @@ describe RomanNumeral do
 
     it "III a 3 "  do           
        @romano.convertir("III").should == 3
-    end 
+    end
+
+    it "V a 5 "  do           
+       @romano.convertir("V").should == 5
+    end  
 
  end  
 
