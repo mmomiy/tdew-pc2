@@ -37,6 +37,10 @@ describe RomanNumeral do
        @romano.convertir("VIII").should == 8
     end
 
+     it "X a 10 "  do           
+       @romano.convertir("X").should == 10
+    end
+
  end  
 
 end 
