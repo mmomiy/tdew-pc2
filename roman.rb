@@ -1,15 +1,13 @@
 class RomanNumeral
 	def convertir(numero)
 
-		if(numero == "I" )
-			return 1
+		contador = 0
+
+		while (numero.length > contador)
+			contador = contador + 1
 		end		
-		if(numero == "II" )
-			return 2
-		end	
-		if(numero == "III" )
-			return 3
-		end
+
+		return contador
 
 	end 
 end
