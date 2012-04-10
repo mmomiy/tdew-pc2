@@ -7,6 +7,9 @@ class RomanNumeral
 		if(numero == "II" )
 			return 2
 		end	
+		if(numero == "III" )
+			return 3
+		end
 
 	end 
 end

@@ -1,6 +1,6 @@
 require './roman.rb'
 
-describe RomanNumerals do  
+describe RomanNumeral do  
 
    context "convertir "  do   
 
@@ -12,6 +12,11 @@ describe RomanNumerals do
     it "II a 2 "  do    
        romano = RomanNumeral.new()        
        romano.convertir("II").should == 2
+    end 
+
+    it "III a 3 "  do    
+       romano = RomanNumeral.new()        
+       romano.convertir("III").should == 3
     end 
  end  
 
